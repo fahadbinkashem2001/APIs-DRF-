@@ -1,0 +1,117 @@
+[
+{
+  "model": "myapp.task",
+  "pk": 1,
+  "fields": {
+    "title": "Learn Django REST Framework",
+    "description": "Finish the task list API with GET and POST, then add update and delete views.",
+    "completed": false
+  }
+},
+{
+  "model": "myapp.task",
+  "pk": 2,
+  "fields": {
+    "title": "Write unit tests for the API",
+    "description": "Test GET, POST, PUT and DELETE for tasks, including invalid data and 404 cases.",
+    "completed": false
+  }
+},
+{
+  "model": "myapp.task",
+  "pk": 3,
+  "fields": {
+    "title": "Set up Git repository",
+    "description": "Create a .gitignore that excludes venv and db.sqlite3, then make the first commit.",
+    "completed": true
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 1,
+  "fields": {
+    "name": "Fahad Bin Kashem",
+    "email": "cenaboivob97@gmail.com"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 2,
+  "fields": {
+    "name": "Md Ariful Islam",
+    "email": "asifshahriar07@gmail.com"
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 1,
+  "fields": {
+    "title": "Timeless Classics",
+    "published_date": "2025-10-20",
+    "authors": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 3,
+  "fields": {
+    "title": "Adventure & Fantasy",
+    "published_date": "2025-08-14",
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 4,
+  "fields": {
+    "title": "Thought-Provoking & Modern Fiction",
+    "published_date": "2025-02-14",
+    "authors": [
+      2
+    ]
+  }
+},
+{
+  "model": "myapp.university",
+  "pk": 1,
+  "fields": {
+    "name": "East West University",
+    "address": "Dhaka"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 1,
+  "fields": {
+    "name": "Fahad Bin Kashem",
+    "cgpa": "3.52",
+    "department": "CSE",
+    "university": 1
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 2,
+  "fields": {
+    "name": "Syeda Tasfia Tasnim",
+    "cgpa": "3.55",
+    "department": "CSE",
+    "university": 1
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 4,
+  "fields": {
+    "name": "Md Ariful Islam",
+    "cgpa": "3.49",
+    "department": "CSE",
+    "university": 1
+  }
+}
+]
